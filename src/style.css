@@ -1,0 +1,189 @@
+body {
+  background-color: #e0e0c0;
+  color: #000080;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background: #fffbe8;
+  border: 2px solid #000080;
+  box-shadow: 4px 4px 0 #b0b0b0;
+  padding: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+header {
+  text-align: center;
+  padding: 16px 0;
+  background: #c0c0c0;
+  border-bottom: 2px solid #000080;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0 #fff;
+}
+nav {
+  background: #000080;
+  padding: 8px 0;
+  text-align: center;
+  margin-bottom: 24px;
+}
+nav a {
+  color: #ffff00;
+  text-decoration: none;
+  margin: 0 16px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.blog-post {
+  border: 2px dotted #000080;
+  background: #f8f8e8;
+  margin-bottom: 24px;
+  padding: 16px 24px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 0 #b0b0b0;
+  transition: transform 0.1s;
+}
+.blog-post:hover {
+  transform: scale(1.02) rotate(-1deg);
+  background: #fffbe8;
+}
+.blog-post h2 {
+  margin-top: 0;
+  color: #800000;
+  font-size: 1.7em;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+.blog-post .date {
+  font-size: 0.95em;
+  color: #555;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+footer {
+  text-align: center;
+  background: #c0c0c0;
+  padding: 12px 0;
+  border-top: 2px solid #000080;
+  font-size: 1em;
+  color: #000080;
+}
+.marquee {
+  background: #ffff00;
+  color: #000080;
+  font-weight: bold;
+  padding: 4px 0;
+  border: 2px solid #000080;
+  margin-bottom: 16px;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-size: 1.1em;
+}
+
+/* --- Members List Styling --- */
+.members-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+}
+.members-list li {
+  background: #e0e0c0;
+  border: 2px solid #000080;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-size: 1.2em;
+  box-shadow: 2px 2px 0 #b0b0b0;
+  transition: background 0.2s, transform 0.1s;
+}
+.members-list li:hover {
+  background: #ffff00;
+  color: #800000;
+  transform: scale(1.05) rotate(1deg);
+}
+.members-list a {
+  color: #000080;
+  text-decoration: none;
+}
+.members-list a:hover {
+  text-decoration: underline;
+}
+
+/* --- User Profile Section Styling --- */
+.profile-section {
+  background: #f8f8e8;
+  border: 2px dashed #800000;
+  border-radius: 14px;
+  padding: 24px 32px;
+  margin: 32px auto;
+  max-width: 500px;
+  box-shadow: 3px 3px 0 #b0b0b0;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  text-align: left;
+}
+.profile-section h2 {
+  color: #000080;
+  font-size: 1.5em;
+  margin-top: 0;
+  text-align: left;
+}
+.profile-section p {
+  font-size: 1.1em;
+  color: #333;
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+  display: block;
+}
+.profile-section img {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+}
+
+.book-cover {
+  width: 110px;
+  height: 160px;
+  object-fit: cover;
+  border: 3px solid #000080;
+  border-radius: 8px;
+  box-shadow: 2px 2px 0 #b0b0b0;
+  background: #fffbe8;
+  padding: 4px;
+  margin-bottom: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.books-list {
+  display: block;
+  text-align: left;
+  padding-left: 0;
+  justify-content: flex-start;
+}
+.book-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.book-item img {
+  margin: 0;
+}
+.book-item div {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+} 
